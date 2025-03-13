@@ -87,7 +87,7 @@ pip install .
 ## Running inference
 
 ### SeamlessM4T Inference
-Here’s an example of using the CLI from the root directory to run inference.
+Here's an example of using the CLI from the root directory to run inference.
 
 S2ST task:
 ```bash
@@ -105,7 +105,7 @@ For running S2TT/ASR natively (without Python) using GGML, please refer to [the 
 > [!NOTE]
 > Please check the [section](#seamlessexpressive-models) on how to download the model.
 
-Here’s an example of using the CLI from the root directory to run inference.
+Here's an example of using the CLI from the root directory to run inference.
 
 ```bash
 expressivity_predict <path_to_input_audio> --tgt_lang <tgt_lang> --model_name seamless_expressivity --vocoder_name vocoder_pretssel --output_path <path_to_save_audio>
@@ -248,7 +248,7 @@ For details of build and more usage please check out [unity.cpp](ggml)
 We created two expressive speech-to-speech translation datasets, mExpresso and mDRAL, between English and five other languages -- French, German, Italian, Mandarin and Spanish. We currently open source the speech-to-text of mExpresso for out-of-English directions, and we will open source the remaining part of the datasets soon. For details, please check out [README](docs/expressive/README.md#benchmark-datasets)
 
 ### SeamlessAlignExpressive
-We’re introducing the first expressive speech alignment procedure. Starting with raw data, the expressive alignment procedure automatically discovers pairs of audio segments sharing not only the same meaning, but the same overall expressivity. To showcase this procedure, we are making metadata available to create a benchmarking dataset called SeamlessAlignExpressive, that can be used to validate the quality of our alignment method. SeamlessAlignExpressive is the first large-scale (11k+ hours) collection of multilingual audio alignments for expressive translation. More details can be found on the [SeamlessAlignExpressive README](docs/expressive/seamless_align_expressive_README.md).
+We're introducing the first expressive speech alignment procedure. Starting with raw data, the expressive alignment procedure automatically discovers pairs of audio segments sharing not only the same meaning, but the same overall expressivity. To showcase this procedure, we are making metadata available to create a benchmarking dataset called SeamlessAlignExpressive, that can be used to validate the quality of our alignment method. SeamlessAlignExpressive is the first large-scale (11k+ hours) collection of multilingual audio alignments for expressive translation. More details can be found on the [SeamlessAlignExpressive README](docs/expressive/seamless_align_expressive_README.md).
 
 
 ## Converting raw audio to units
@@ -314,3 +314,21 @@ The following models are CC-BY-NC 4.0 licensed as found in the [LICENSE](LICENSE
 The following models are Seamless licensed as found in [SEAMLESS_LICENSE](SEAMLESS_LICENSE):
 - Seamless models.
 - SeamlessExpressive models.
+
+## Virtual Environment Setup
+
+The `seamless-env` directory has been excluded from this repository due to GitHub file size limitations. To set up the environment:
+
+1. Clone the original Seamless Communication repository if you need the complete environment:
+   ```bash
+   git clone https://github.com/facebookresearch/seamless_communication.git
+   ```
+
+2. Or create a new virtual environment and install dependencies:
+   ```bash
+   python -m venv seamless-env
+   source seamless-env/bin/activate  # On Windows, use: seamless-env\Scripts\activate
+   pip install -e .
+   ```
+
+This will install all the necessary dependencies including fairseq2, torch, and other libraries required to run the models.

@@ -96,6 +96,9 @@ celerybeat-schedule
 venv/
 ENV/
 
+# Exclude the seamless-env directory which contains large files
+seamless-env/
+
 # Spyder project settings
 .spyderproject
 .spyproject
