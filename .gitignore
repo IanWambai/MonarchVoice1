@@ -96,8 +96,8 @@ celerybeat-schedule
 venv/
 ENV/
 
-# Exclude the seamless-env directory which contains large files
-seamless-env/
+# Exclude the monarch-env directory which contains large files
+monarch-env/
 
 # Spyder project settings
 .spyderproject
@@ -145,8 +145,8 @@ outputs
 
 
 # symlinks
-seamless_communication
-# ignore src/seamless_communication  
-!*/seamless_communication
+monarch_voice
+# ignore src/monarch_voice  
+!*/monarch_voice
 m4t_scripts
 /ggml/test_data/

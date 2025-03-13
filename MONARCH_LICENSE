@@ -1,0 +1,25 @@
+Monarch Voice Licensing Agreement
+
+"Agreement" means this "Monarch Voice Licensing Agreement", including, the terms and conditions for use, reproduction, distribution and modification of the Monarch Voice Materials set forth herein.
+
+"Documentation" means the specifications, manuals and documentation accompanying Monarch Voice distributed by the project.
+
+"Licensee" or "you" means you, or your employer or any other person or entity (if you are entering into this Agreement on such person or entity's behalf), of the age required under applicable laws, rules or regulations to provide legal consent and that has legal authority to bind your employer or such other person or entity if you are entering in this Agreement on their behalf.
+
+"Monarch" or "we" means the Monarch Voice Project and its contributors.
+
+"Monarch Voice Materials" means (a) the Seamless Expressive Model trained weights and model definition files derived from Meta's Seamless Expressive Model, and the Seamless Model trained weights and model definition files derived from Meta's Seamless Model, as well as any derivatives, portions, improvements or modifications of the foregoing; and (b) the Documentation.
+
+Subject to the terms and conditions herein, a limited, non-exclusive, worldwide, non-transferable, non-sublicensable, revocable, royalty free, license to use, reproduce, distribute, and create derivative works of the Monarch Voice Materials solely for your non-commercial research purposes. Commercial research is excluded from this license. 
+
+The license granted herein is conditioned upon your compliance with the Acceptable Use Policy available with this repository which is incorporated herein.
+
+No Express or Implied Rights. There are no implied licenses in this Agreement, and the Monarch Voice Project reserves all rights not expressly granted herein. 
+
+No right or license, express or implied, is granted in this Agreement to use Monarch Voice Project or the Monarch Voice name, logo, or trademarks, except as may be required under applicable fair use doctrine.
+
+Contributions. If you provide any feedback, suggestions, or modifications relating to the Monarch Voice Materials ("Contributions"), you hereby:
+1. acknowledge and agree that Meta shall have a royalty-free, perpetual, irrevocable, worldwide right to use, adapt, modify, create derivative works of, reproduce, incorporate, distribute, and otherwise fully exploit the Contributions in any manner, including to make enhancements to or new versions of the Monarch Voice Materials and for any other purpose; and
+2. where a Contribution is provided as a derivative work of the Model, automatically grant the Monarch Voice Project a non-exclusive, perpetual, irrevocable, worldwide, royalty-free, sublicensable, license under all intellectual property rights covering the Contribution to use, discuss, reproduce, modify, distribute and make available the Contribution as part of the Monarch Voice Materials, including for commercial purposes.
+
+DISCLAIMER. THE MONARCH VOICE MATERIALS AND ANY DERIVATIVES THEREOF ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE MONARCH VOICE MATERIALS OR USE OR OTHER DEALINGS IN THE MONARCH VOICE MATERIALS. 
