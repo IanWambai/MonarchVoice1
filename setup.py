@@ -21,7 +21,7 @@ setup(
     url="https://github.com/monarchvoice/monarch_voice",
     license="Creative Commons",
     install_requires=[
-        "datasets==2.18.0",
+        "datasets==5.0.1",
         "fairseq2==0.2.*",
         "fire",
         "librosa",
